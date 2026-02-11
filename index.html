@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Two Column Layout</title>
+    <style>
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #222;
+        background: #f4f4f4;
+        line-height: 1.6;
+      }
+
+      .page {
+        max-width: 1000px;
+        margin: 20px auto 32px;
+        padding: 0 16px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 20px;
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        margin-bottom: 20px;
+      }
+
+      header span {
+        font-size: 1.3rem;
+        font-weight: 700;
+      }
+
+      nav {
+        display: flex;
+        gap: 12px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #1a4b8c;
+        font-weight: 600;
+      }
+
+      main {
+        display: flex;
+        gap: 20px;
+      }
+
+      section,
+      aside {
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        padding: 16px 20px;
+      }
+
+      section {
+        flex: 2;
+      }
+
+      aside {
+        flex: 1;
+      }
+
+      h1,
+      h2 {
+        margin-top: 0;
+        color: #1a1a1a;
+      }
+
+      p {
+        margin: 0 0 12px;
+        color: #444444;
+      }
+
+      footer {
+        margin-top: 20px;
+        padding: 12px 0;
+        text-align: center;
+        color: #666666;
+      }
+
+      @media (max-width: 800px) {
+        header {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 10px;
+        }
+
+        main {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+
+
+  <body>
+    <div class="page">
+      <header>
+        <span>Site Title</span>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section>
+          <h1>Left Column</h1>
+          <p>
+            This is the primary content area. The spacing, padding, and margins
+            are deliberate to show how the box model helps organize a layout.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            posuere, arcu a accumsan semper, lacus lorem viverra enim, at
+            bibendum magna nisi vitae tellus.
+          </p>
+          <p>
+            Sed aliquet, massa vitae egestas vulputate, mauris magna convallis
+            augue, nec dictum est justo in nisi. Curabitur ut lectus quis libero
+            facilisis laoreet.
+          </p>
+          <p>
+            Nulla facilisi. Donec tincidunt orci at velit placerat, nec
+            consequat nisl imperdiet. Vivamus non ex id dolor consequat
+            tristique.
+          </p>
+        </section>
+
+        <aside>
+          <h2>Right Column</h2>
+          <p>
+            This column supports the main content with a tighter width and a
+            bold accent line to differentiate it.
+          </p>
+          <p>
+            Mauris euismod, mauris at faucibus suscipit, massa arcu ullamcorper
+            est, et facilisis neque justo at augue.
+          </p>
+          <p>
+            Aliquam erat volutpat. Suspendisse potenti. Praesent ut nibh at
+            velit viverra posuere.
+          </p>
+        </aside>
+      </main>
+
+      <footer>
+        <p>Footer content...</p>
+      </footer>
+    </div>
+  </body>
+</html>
