@@ -1,0 +1,337 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+img#unite{
+max-width: 40%;
+}
+
+#chandi{
+max-width: 40%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+:root {
+  --bg: #f4f1ea;
+  --surface: #fffdf8;
+  --text: #1f2428;
+  --muted: #56606a;
+  --accent: #0b4f6c;
+  --border: #c5c0b5;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 16px;
+}
+
+.site-header h1 {
+  font-size: 2rem;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+.top-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr 230px;
+  gap: 20px;
+  padding: 20px 16px;
+}
+
+.sidebar-left,
+.sidebar-right {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 14px;
+}
+
+.sidebar-left h2,
+.sidebar-right h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.sidebar-left ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.sidebar-left li + li {
+  margin-top: 6px;
+}
+
+.article {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  max-width: 780px;
+  padding: 18px;
+}
+
+.article section + section {
+  margin-top: 26px;
+}
+
+.article h2 {
+  border-bottom: 1px solid var(--border);
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+}
+
+.article p {
+  margin-bottom: 12px;
+}
+
+.article ul {
+  padding-left: 20px;
+}
+
+.article figure {
+  margin: 12px 0;
+}
+
+.article figcaption {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+
+table caption {
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #ece6d9;
+}
+
+form {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.star-rating {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.star-rating legend {
+  margin-bottom: 4px;
+}
+
+.stars {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  gap: 2px;
+}
+
+.stars input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.stars label {
+  color: #b8b2a7;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.stars label:hover,
+.stars label:hover ~ label,
+.stars input:checked ~ label {
+  color: #d28b00;
+}
+
+input,
+select,
+textarea,
+button {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 8px;
+}
+
+button {
+  background: #f0ebe0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e6dece;
+}
+
+.control-group + .control-group {
+  margin-top: 14px;
+}
+
+.control-group p {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#form-message {
+  color: #0f5132;
+  font-weight: 600;
+}
+
+#study-note {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
+
+.site-footer {
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 14px 16px 24px;
+  text-align: center;
+}
+
+.article.small {
+  font-size: 14px;
+}
+
+.article.normal {
+  font-size: 16px;
+}
+
+.article.large {
+  font-size: 18px;
+}
+
+.article.wide {
+  max-width: 1000px;
+}
+
+body.dark {
+  --bg: #1b1d1f;
+  --surface: #22262a;
+  --text: #f0f3f5;
+  --muted: #c4ccd2;
+  --accent: #7ec8e3;
+  --border: #4a525a;
+}
+
+body.dark input,
+body.dark select,
+body.dark textarea,
+body.dark button {
+  background: #1c1f22;
+  color: var(--text);
+}
+
+body.dark th {
+  background: #34393f;
+}
+
+body.dark button:hover {
+  background: #3b4249;
+}
+
+body.dark .stars label {
+  color: #777f87;
+}
+
+body.dark .stars label:hover,
+body.dark .stars label:hover ~ label,
+body.dark .stars input:checked ~ label {
+  color: #f5bd4d;
+}
+
+@media (min-width: 1920px) {
+  .layout {
+    grid-template-columns: 260px minmax(0, 1fr) 260px;
+    gap: 24px;
+    padding-inline: 32px;
+  }
+
+  .article,
+  .article.wide {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .article {
+    max-width: 100%;
+  }
+
+  .top-links {
+    gap: 10px 14px;
+  }
+}
