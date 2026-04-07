@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Microventure Radar blends browser APIs and live weather data to recommend the best outdoor micro-adventure for your current place."
+    >
+    <title>Microventure Radar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="grid-wash" aria-hidden="true"></div>
+
+    <main class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Microventure Radar</p>
+          <h1>Catch the best outside window before it disappears.</h1>
+          <p class="lede">
+            A single-page planner that mixes live forecast data, sunrise timing,
+            browser geolocation, and voice search into small adventures you can
+            actually take today.
+          </p>
+          <div class="hero-badges" aria-label="Features">
+            <span>Geolocation</span>
+            <span>Voice Search</span>
+            <span>Forecast Scoring</span>
+            <span>Saved Spots</span>
+          </div>
+        </div>
+
+        <section class="control-panel" aria-labelledby="planner-heading">
+          <div class="panel-heading">
+            <p class="mini-label">Plan a place</p>
+            <h2 id="planner-heading">Search, speak, or use your device location</h2>
+          </div>
+
+          <form id="search-form" class="search-form" autocomplete="off">
+            <label class="sr-only" for="place-input">Search for a city, town, or place</label>
+            <input
+              id="place-input"
+              name="place"
+              type="text"
+              placeholder="Try Chicago, Kyoto, or Reykjavik"
+              spellcheck="false"
+              aria-describedby="permission-hint"
+            >
+            <button type="submit" class="primary-button">Search</button>
+            <button type="button" id="voice-button" class="secondary-button">
+              Voice
+            </button>
+            <button type="button" id="location-button" class="ghost-button">
+              Use My Location
+            </button>
+          </form>
+
+          <div class="utility-row">
+            <p id="permission-hint" class="hint">
+              If location access is denied, manual and voice search still work.
+            </p>
+            <div class="utility-actions">
+              <button type="button" id="save-button" class="pill-button" disabled>
+                Save Spot
+              </button>
+              <button type="button" id="share-button" class="pill-button" disabled>
+                Share View
+              </button>
+            </div>
+          </div>
+
+          <p id="status-message" class="status" aria-live="polite">
+            Loading a default radar for Chicago...
+          </p>
+
+          <ul
+            id="search-results"
+            class="search-results"
+            aria-label="Search results"
+          ></ul>
+        </section>
+      </header>
+
+      <section class="overview-grid" aria-labelledby="overview-heading">
+        <h2 id="overview-heading" class="sr-only">Current radar overview</h2>
+
+        <article class="panel summary-panel">
+          <div class="panel-topline">
+            <p class="mini-label">Current pulse</p>
+            <span id="precision-chip" class="chip subtle-chip">Ready</span>
+          </div>
+          <h2 id="place-label" class="place-label">Chicago, Illinois, United States</h2>
+          <p id="summary-advice" class="summary-advice">
+            Reading weather and sunlight data for the next best outdoor window.
+          </p>
+
+          <div class="score-block">
+            <p class="score-label">Adventure meter</p>
+            <div class="score-row">
+              <strong id="adventure-score">--</strong>
+              <span id="adventure-state">Loading</span>
+            </div>
+            <div class="meter-track" aria-hidden="true">
+              <span id="meter-fill" class="meter-fill"></span>
+            </div>
+          </div>
+
+          <div class="stat-grid">
+            <div class="stat-card">
+              <span class="stat-label">Conditions</span>
+              <strong id="condition-label">--</strong>
+              <span id="condition-detail" class="stat-detail">Waiting for data</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Temperature</span>
+              <strong id="temperature-label">--</strong>
+              <span id="feels-like-label" class="stat-detail">Feels like --</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Daylight phase</span>
+              <strong id="phase-label">--</strong>
+              <span id="phase-detail" class="stat-detail">Calculating sun cycle</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Best next move</span>
+              <strong id="best-move-label">--</strong>
+              <span id="best-move-detail" class="stat-detail">Scanning the next 24 hours</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel sun-panel">
+          <div class="panel-topline">
+            <p class="mini-label">Sun timing</p>
+            <span id="sun-chip" class="chip warm-chip">Solar rhythm</span>
+          </div>
+
+          <div class="sun-card-grid">
+            <div class="sun-card">
+              <span class="stat-label">Sunrise</span>
+              <strong id="sunrise-label">--</strong>
+            </div>
+            <div class="sun-card">
+              <span class="stat-label">Sunset</span>
+              <strong id="sunset-label">--</strong>
+            </div>
+            <div class="sun-card">
+              <span class="stat-label">Blue hour</span>
+              <strong id="blue-hour-label">--</strong>
+            </div>
+            <div class="sun-card">
+              <span class="stat-label">Day length</span>
+              <strong id="day-length-label">--</strong>
+            </div>
+          </div>
+
+          <p id="sun-note" class="sun-note">
+            The forecast and solar APIs are being synced into one timeline.
+          </p>
+        </article>
+      </section>
+
+      <section class="panel recommendations-panel" aria-labelledby="missions-heading">
+        <div class="section-heading">
+          <div>
+            <p class="mini-label">Mission board</p>
+            <h2 id="missions-heading">Three ways to use the weather instead of fight it</h2>
+          </div>
+          <p class="section-copy">
+            Each card is scored from forecast, daylight, cloud cover, wind, and rain risk.
+          </p>
+        </div>
+        <div id="recommendations" class="recommendations-grid"></div>
+      </section>
+
+      <section class="lower-grid">
+        <section class="panel timeline-panel" aria-labelledby="timeline-heading">
+          <div class="section-heading">
+            <div>
+              <p class="mini-label">12-hour outlook</p>
+              <h2 id="timeline-heading">What the next stretch actually looks like</h2>
+            </div>
+          </div>
+          <div id="timeline" class="timeline-strip"></div>
+        </section>
+
+        <aside class="panel saved-panel" aria-labelledby="saved-heading">
+          <div class="section-heading">
+            <div>
+              <p class="mini-label">Saved spots</p>
+              <h2 id="saved-heading">Keep a few go-to places on deck</h2>
+            </div>
+          </div>
+          <div id="saved-empty" class="saved-empty">
+            No saved spots yet. Load a place you like, then save it here.
+          </div>
+          <div id="saved-places" class="saved-places"></div>
+        </aside>
+      </section>
+
+      <footer class="site-footer">
+        <p>
+          APIs used:
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API">Geolocation</a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech</a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API">Web Storage</a>,
+          <a href="https://open-meteo.com/en/docs/geocoding-api">Open-Meteo Geocoding</a>,
+          <a href="https://open-meteo.com/en/docs">Open-Meteo Forecast</a>,
+          <a href="https://sunrise-sunset.org/api">Sunrise-Sunset</a>,
+          and
+          <a href="https://www.bigdatacloud.com/reverse-geocode-to-city-api">BigDataCloud Reverse Geocode</a>.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
