@@ -223,7 +223,7 @@
         .attr("class", "pin")
         .attr("tabindex", 0)
         .attr("role", "button")
-        .attr("transform", function (item) { return "translate(" + item.x + "," + item.y + ")"; })
+        .attr("transform", function (item) { return pinTransform(item); })
         .attr("aria-label", function (item) {
           return item.name + ", mapped to " + item.place + ", " + item.country + ". " + item.studentCount + " student assignment" + (item.studentCount === 1 ? "" : "s") + ".";
         });
@@ -234,6 +234,15 @@
 
       function active() { return pinned || hover; }
       function plural(count, singular) { return count + " " + singular + (count === 1 ? "" : "s"); }
+      function pinScaleForZoom() {
+        if (zoomTransform.k <= 1) {
+          return 1;
+        }
+        return Math.pow(zoomTransform.k, -1.15);
+      }
+      function pinTransform(item) {
+        return "translate(" + item.x + "," + item.y + ") scale(" + pinScaleForZoom() + ")";
+      }
       function tipHtml(item) {
         return "<strong>" + item.name + "</strong>" + item.place + ", " + item.country + (item.sharedLocationCount > 1 ? "<em>" + plural(item.sharedLocationCount, "architect") + " share this coordinate</em>" : "");
       }
@@ -320,6 +329,7 @@
         .on("zoom", function (event) {
           zoomTransform = event.transform;
           zoomLayer.attr("transform", zoomTransform);
+          pins.attr("transform", function (item) { return pinTransform(item); });
           render();
         })
         .on("end", function () {
