@@ -1,0 +1,610 @@
+﻿FILE: UG-525857 slides.pdf
+PDF-1.3
+Filter /FlateDecode /Length 834
+stream
+pdm C
+endstream
+endobj
+Type /Page /Parent 2 0 R /Resources 4 0 R /Contents 3 0 R /MediaBox
+Rotate 0 /Annots 9 0 R
+ProcSet
+PDF /Text /ImageB /ImageC /ImageI
+ColorSpace
+ExtGState
+Font
+XObject
+Type /XObject /Subtype /Image /Width 1024 /Height 668 /Interpolate true
+ColorSpace 5 0 R /BitsPerComponent 8 /Length 1225071 /Filter /FlateDecode
+geNaq
+rWqyYA
+P4YAz
+LBzPv
+T xUL
+iKE4r
+jEA UdK
+EcF)4
+WOeE5
+QsflJ
+WdIBep
+kBsTJ
+AJTaN
+BJr LI
+TXT4y
+BMUrW
+jEx.P
+FDrV.
+SdWN4o
+HBHpw
+qXtph
+kTlqh
+zfOYd
+yjZ)S
+b5DNA
+gk-gxO
+IWb5J
+WUCK0
+AJfg
+xsT 'a
+Flp)b
+b aAR
+fyFx(
+WDRmC
+Vo.XiP
+J0yQF
+nCW0V
+hLDyP
+SXfybN
+Mgp5m
+aKg3g
+eaPvI
+vyDz2
+ieJQTn
+tUa5w
+cOlot
+a6CEeLsqB
+e0xWc
+eKKLA
+MUa9n
+tGzPD9
+E(hLk
+AIdDR
+qnRHI
+y8VNU
+XXYT5
+HCFxL
+e9Zmh
+U-EXV
+FQb30
+XFCTE
+gSpCyD
+ZMCQg
+SbhhU
+TsLQU)
+LV0vBv
+PVLXO
+FAl1q
+cEHUp
+jPalFD
+EdoqWI
+PID75DtK
+yGyJi
+Abg/U
+Azog2
+TNZfw
+AO9fQR
+bUh,V
+MHR28M
+tliXX
+Y0ddY
+Jsken
+YpfQo
+b cAs
+alzDgRf
+G2mdd
+O2liW
+hsjTJJ
+ntvIs
+Q7dET
+H1LWb
+ztbqi
+HXV2w
+OUVGJ
+CEPYA
+ccdsp
+Nu0RJeao
+CIV6X
+KNJ 9
+MqpWM
+EYzr)C
+O'dvU
+ivk6a
+fUzSk
+----
+FILE: UG-525866 slides.pdf
+PDF-1.3
+Filter /FlateDecode /Length 568
+stream
+endstream
+endobj
+Type /Page /Parent 4 0 R /StructParents 0 /Resources 6 0 R /Contents 5 0 R
+MediaBox
+Rotate 0 /Annots 13 0 R
+ProcSet
+PDF /Text /ImageB /ImageC /ImageI
+ColorSpace
+ExtGState
+Font
+XObject
+Type /XObject /Subtype /Image /Width 567 /Height 425 /Interpolate true
+ColorSpace 17 0 R /SMask 18 0 R /BitsPerComponent 8 /Length 261591 /Filter
+FlateDecode
+QUUU33s
+TUTUm
+LAsI4
+CzHAC
+NHUJg
+rbtqdr-
+UzHEF
+Shb-4
+gA'gEj
+rzsnxp
+WH8uMH
+M,EGg
+Dbpnn
+xcxkh(
+VPrSl
+EJj592
+s()llH
+HIyzz
+lbUor
+iwPRX
+MODQR
+DDDDDDDD
+qDDDDDDDEUU
+LUMMUM
+jffff
+OQKPB
+RUQU4
+ygx,o
+CJQJ
+iHQnB
+B)cfcD
+yhkgc
+RRRfV
+DWGIgJ
+omnn0
+Ojuks
+bFw Z
+tsphs
+kneuk
+zZvrS
+dfiSPH
+zHw-q
+D2IlC
+BUZOiHY
+nLuwL7j
+n(9KIa
+dw.GLd
+D2KZw
+pJb'NC
+JmCCc
+TZmN)
+Bzrr522
+UIaL-
+uruju
+YTKQU/
+Bawdb
+Y Bxu
+QRLG
+eDBj-i
+bi)ALIQ
+KLqTu
+VtYXm
+Q-ZLA
+VLACAI
+cGI1H
+J5PRE
+p-wPE
+tRRo
+HKMZ.
+ERl0GGIqH
+euRPR
+dfffff
+ffffff
+BFA8u
+WNAsVa
+ICIu
+p'zjN
+tKh1
+avuZj
+NaBjip
+CRtkDO
+o EEA
+SOIqH
+DjBgJ
+SIUjd
+vjtzj
+ukztU'Y
+i)RRL
+rHAIAF
+JDm'f
+N4LIa
+TNwP4
+mLIAF
+IqHaA
+sHIN5
+eSPRi
+OkfZ(
+ppjbr
+koGcJ
+sHQSL
+VHqzrN
+Z2NLL
+Fhv8VN3w
+----
+FILE: UG-526086 slides.pdf
+PDF-1.3
+Filter /FlateDecode /Length 543
+stream
+IbuHg
+endstream
+endobj
+Type /Page /Parent 2 0 R /Resources 4 0 R /Contents 3 0 R /MediaBox
+Rotate 0 /Annots 8 0 R
+ProcSet
+PDF /Text
+ColorSpace
+ExtGState
+Font
+Type /ExtGState /ca 0
+Type /ExtGState /ca 1
+N 3 /Alternate /DeviceRGB /Length 2612 /Filter /FlateDecode
+yCAP8
+SwBOK/X/
+L(sYf
+f5wug
+ICCBased 12 0 R
+N 1 /Alternate /DeviceGray /Length 3385 /Filter /FlateDecode
+x,wWwV
+qFAFB
+xHxHU
+GcQ,7vm
+MpK(KhO
+ICCBased 13 0 R
+Filter /FlateDecode /Length 1386
+d9Oys
+Type /Page /Parent 2 0 R /Resources 16 0 R /Contents 15 0 R /MediaBox
+Rotate 0
+PDF /Text /ImageB /ImageC /ImageI
+XObject
+Type /XObject /Subtype /Image /Width 768 /Height 1024 /Interpolate true
+ColorSpace 5 0 R /BitsPerComponent 8 /Length 40781 /Filter /DCTDecode
+CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+O4SwQ
+P1iqH
+isIJ(
+COSGj1
+oCHqN
+sNSLd
+WcSSq
+B,EWa
+B3LaR
+TmS5D
+VXqPH1
+JNj3R22)
+sH)qHb
+qKH)h
+JFi3E
+sGAE05
+cGQWm
+v3LgU
+iXdDR
+wjf3N
+XpJyG
+U0zzW
+sUXno
+O2VoSUFwT
+HCpqM9
+ZQIGz
+MaU7f
+PyZfi
+zZniy
+zQH)h
+gSczh
+fxmdd
+KIJzP
+cHzP1
+R/zQH
+SVDs6
+DCYp8
+tPui0
+UYNOjI
+NMgOb
+k6hei6
+uuw6e
+UncD9V'
+Kzp1Q
+OaFMG
+Type /XObject /Subtype /Image /Width 1200 /Height 641 /Interpolate true
+ColorSpace 5 0 R /BitsPerComponent 8 /Length 152687 /Filter /DCTDecode
+FEjAt
+d'kpq
+bLdpH
+UYCDdm
+xpTzt
+nkN7q
+MrpiW
+Y'lGi
+FOLRF
+uze,X
+kBPYd
+FkGiI
+SKqqmqc
+arxrydl
+Ixwcq
+iiug1
+PrIPp
+G(Kxm
+bDY2H
+t2Ixd
+SyaP8
+kFXIV
+kJp70
+sHGNx
+nYGUS
+FKH62
+rdPzs
+rwg''
+YXprv
+yW6zTg
+i7wACFeM
+NPZ7M
+uwQTk(
+TvD70G
+ZBvu.
+kCQuiK4
+----
+FILE: UG-527498 slides.pdf
+PDF-1.3
+Filter /FlateDecode /Length 677
+stream
+endstream
+endobj
+Type /Page /Parent 2 0 R /Resources 4 0 R /Contents 3 0 R /MediaBox
+Rotate 0
+ProcSet
+PDF /Text /ImageB /ImageC /ImageI
+ColorSpace
+ExtGState
+Font
+XObject
+Type /XObject /Subtype /Image /Width 843 /Height 898 /Interpolate true
+ColorSpace 5 0 R /BitsPerComponent 8 /Length 62704 /Filter /DCTDecode
+CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+MWUPh
+hLpj6
+DFFE7
+zUvbW5bu
+j-ndV
+ndbpj
+JIlTRFqR8
+Wnpk6c
+pEFO4
+PHOjId
+v-NPz
+qDVQZ
+ePzTE
+HYpk.e
+THrje u
+UkiFO
+JGJk0
+SFpqW3Mp1
+L2JArG
+sOp1P
+RCnPsO'
+TrkWKl0
+ExNqW
+hoCMqL
+rhglTJ
+fBbpA
+qSL7t
+HEF8l
+REkYj/2
+MmC U
+T9.OcR
+NQBah
+N,TsQ
+H1JMA
+LME0A
+IrNGJ
+YRcoZ
+NJRgp
+p1QHy
+zSsKF(
+zTr1n0h
+IgR1Y
+RGhCt
+sVBKP
+JzSNh
+Type /ExtGState /ca 0
+Type /ExtGState /ca 1
+N 3 /Alternate /DeviceRGB /Length 2612 /Filter /FlateDecode
+yCAP8
+SwBOK/X/
+L(sYf
+f5wug
+ICCBased 12 0 R
+N 1 /Alternate /DeviceGray /Length 3385 /Filter /FlateDecode
+x,wWwV
+qFAFB
+xHxHU
+GcQ,7vm
+MpK(KhO
+ICCBased 13 0 R
+Filter /FlateDecode /Length 1778
+crYNP
+UUB29
+WuKFRC
+Type /Page /Parent 2 0 R /Resources 16 0 R /Contents 15 0 R /MediaBox
+Type /XObject /Subtype /Image /Width 2048 /Height 1194 /Interpolate true
+ColorSpace 5 0 R /BitsPerComponent 8 /Length 270061 /Filter /DCTDecode
+Niii1A(LR
+jRyzm
+mBO/L
+jeZKYe8D
+MJF50
+IJu5l
+m.)qKL
+QLBRf
+WZw9B
+UGLTP
+LMXJ)OZ(
+ocYTw.
+IKsnd
+pjZLjG
+mGFcU
+OFc11
+Isson
+vkCZt
+UGAFj
+beKK-
+LTN-GR
+WImwi
+n.bOl
+EqlDz
+WGgwi
+SILAE
+WPZAq
+IWNic
+xhKgj
+i9Icc
+OIlcW
+CIKF)
+jJ0iph
+P)qLi
+ZQIFq
+DsAZM
+Ljac5x
+----
+FILE: UG-527964 slides.pdf
+PDF-1.3
+Filter /FlateDecode /Length 572
+stream
+endstream
+endobj
+Type /Page /Parent 2 0 R /Resources 4 0 R /Contents 3 0 R /MediaBox
+Rotate 0 /Annots 8 0 R
+ProcSet
+PDF /Text
+ColorSpace
+ExtGState
+Font
+Type /ExtGState /ca 0
+Type /ExtGState /ca 1
+N 3 /Alternate /DeviceRGB /Length 2612 /Filter /FlateDecode
+yCAP8
+SwBOK/X/
+L(sYf
+f5wug
+ICCBased 12 0 R
+N 1 /Alternate /DeviceGray /Length 3385 /Filter /FlateDecode
+x,wWwV
+qFAFB
+xHxHU
+GcQ,7vm
+MpK(KhO
+ICCBased 13 0 R
+Filter /FlateDecode /Length 2140
+DFVuW
+cGskU
+Type /Page /Parent 2 0 R /Resources 16 0 R /Contents 15 0 R /MediaBox
+Rotate 0
+PDF /Text /ImageB /ImageC /ImageI
+XObject
+Type /XObject /Subtype /Image /Width 354 /Height 506 /Interpolate true
+ColorSpace 5 0 R /BitsPerComponent 8 /Length 33723 /Filter /DCTDecode
+CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+y,GlR
+cBfbz
+EbrsJ
+z0oOO
+QPCwx
+Jry U
+WIx7Z
+kudFo1
+impnf
+coogn
+IQYSx
+wow S
+zWCah
+UCNgX
+v5nBU
+Mwkeo
+ePdeE
+URcPY
+iJonz
+zzUM/
+EFfWpw
+FDq6ws
+mmwa41
+Type /XObject /Subtype /Image /Width 640 /Height 640 /Interpolate true
+ColorSpace 5 0 R /BitsPerComponent 8 /Length 89722 /Filter /DCTDecode
+rHRO'9
+KaWqc
+kjNIZB
+dzYl.H9
+rnfg'
+OaX9T
+QImgfM
+nMpJ2
+p2qMfr
+RPUp8
+kKPF6
+bXpO'
+ERM's
+pntQ)
+pOLdV
+FOGsh
+HrwhF
+GSVmp
+tkIfS
+QXGmJ
+rBxzF
+YHUX9
+qAgy2
+JKA,D
+wSMqq
+Z.WiY3J
+iKTs-nW8
+UvGAj
+FbHvp
+sN zRc
+jmZIU
+h-RFXWz
+BQwHn
+KuY W3
+FWgMZ
+mXd1e
+qsKS/a
+EEw9h
+kqvVAh
+tRFOL
+XMZ6l,a
+U'mMp
+zSRLL
+oLTsj7
+XeYb.
+EFl,h
+TJIn8E
+vMhZh
+RiPAt
+YNmlk
+Vqi3)-Sz
+piIm2
+Filter /FlateDecode /Length 1710
+MtHhN
+Type /Page /Parent 2 0 R /Resources 22 0 R /Contents 21 0 R /MediaBox
+Type /XObject /Subtype /Image /Width 500 /Height 241 /Interpolate true
+ColorSpace 5 0 R /BitsPerComponent 8 /Length 19923 /Filter /DCTDecode
+hcp-D
+----

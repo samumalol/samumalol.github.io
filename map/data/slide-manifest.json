@@ -1,0 +1,192 @@
+﻿{
+    "generatedAt":  "2026-04-01T17:09:57",
+    "inputDir":  "D:\\Sam\\map",
+    "outputDir":  "D:\\Sam\\map\\assets\\slides",
+    "decks":  [
+                  {
+                      "id":  "ug-525792-slides",
+                      "sourceFile":  "UG-525792 slides.pptx",
+                      "sourceType":  "pptx",
+                      "title":  "UG-525792 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-525792-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-525792-slides\\slide-001.png",
+                                     "assets\\slides\\ug-525792-slides\\slide-002.png",
+                                     "assets\\slides\\ug-525792-slides\\slide-003.png",
+                                     "assets\\slides\\ug-525792-slides\\slide-004.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-525855-slides",
+                      "sourceFile":  "UG-525855 slides.pptx",
+                      "sourceType":  "pptx",
+                      "title":  "UG-525855 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-525855-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-525855-slides\\slide-001.png",
+                                     "assets\\slides\\ug-525855-slides\\slide-002.png",
+                                     "assets\\slides\\ug-525855-slides\\slide-003.png",
+                                     "assets\\slides\\ug-525855-slides\\slide-004.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-525857-slides",
+                      "sourceFile":  "UG-525857 slides.pdf",
+                      "sourceType":  "pdf",
+                      "title":  "UG-525857 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-525857-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-525857-slides\\slide-001.png",
+                                     "assets\\slides\\ug-525857-slides\\slide-002.png",
+                                     "assets\\slides\\ug-525857-slides\\slide-003.png",
+                                     "assets\\slides\\ug-525857-slides\\slide-004.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-525866-slides",
+                      "sourceFile":  "UG-525866 slides.pdf",
+                      "sourceType":  "pdf",
+                      "title":  "UG-525866 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-525866-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-525866-slides\\slide-001.png",
+                                     "assets\\slides\\ug-525866-slides\\slide-002.png",
+                                     "assets\\slides\\ug-525866-slides\\slide-003.png",
+                                     "assets\\slides\\ug-525866-slides\\slide-004.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-525879-slides",
+                      "sourceFile":  "UG-525879 slides.pptx",
+                      "sourceType":  "pptx",
+                      "title":  "UG-525879 slides",
+                      "slideCount":  3,
+                      "outputDir":  "assets\\slides\\ug-525879-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-525879-slides\\slide-001.png",
+                                     "assets\\slides\\ug-525879-slides\\slide-002.png",
+                                     "assets\\slides\\ug-525879-slides\\slide-003.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-525883-slides",
+                      "sourceFile":  "UG-525883 slides.pptx",
+                      "sourceType":  "pptx",
+                      "title":  "UG-525883 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-525883-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-525883-slides\\slide-001.png",
+                                     "assets\\slides\\ug-525883-slides\\slide-002.png",
+                                     "assets\\slides\\ug-525883-slides\\slide-003.png",
+                                     "assets\\slides\\ug-525883-slides\\slide-004.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-526067-slides",
+                      "sourceFile":  "UG-526067 slides.pptx",
+                      "sourceType":  "pptx",
+                      "title":  "UG-526067 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-526067-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-526067-slides\\slide-001.png",
+                                     "assets\\slides\\ug-526067-slides\\slide-002.png",
+                                     "assets\\slides\\ug-526067-slides\\slide-003.png",
+                                     "assets\\slides\\ug-526067-slides\\slide-004.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-526086-slides",
+                      "sourceFile":  "UG-526086 slides.pdf",
+                      "sourceType":  "pdf",
+                      "title":  "UG-526086 slides",
+                      "slideCount":  5,
+                      "outputDir":  "assets\\slides\\ug-526086-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-526086-slides\\slide-001.png",
+                                     "assets\\slides\\ug-526086-slides\\slide-002.png",
+                                     "assets\\slides\\ug-526086-slides\\slide-003.png",
+                                     "assets\\slides\\ug-526086-slides\\slide-004.png",
+                                     "assets\\slides\\ug-526086-slides\\slide-005.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-526378-slides",
+                      "sourceFile":  "UG-526378 slides.pptx",
+                      "sourceType":  "pptx",
+                      "title":  "UG-526378 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-526378-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-526378-slides\\slide-001.png",
+                                     "assets\\slides\\ug-526378-slides\\slide-002.png",
+                                     "assets\\slides\\ug-526378-slides\\slide-003.png",
+                                     "assets\\slides\\ug-526378-slides\\slide-004.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-526847-slides",
+                      "sourceFile":  "UG-526847 slides.pptx",
+                      "sourceType":  "pptx",
+                      "title":  "UG-526847 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-526847-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-526847-slides\\slide-001.png",
+                                     "assets\\slides\\ug-526847-slides\\slide-002.png",
+                                     "assets\\slides\\ug-526847-slides\\slide-003.png",
+                                     "assets\\slides\\ug-526847-slides\\slide-004.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-527498-slides",
+                      "sourceFile":  "UG-527498 slides.pdf",
+                      "sourceType":  "pdf",
+                      "title":  "UG-527498 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-527498-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-527498-slides\\slide-001.png",
+                                     "assets\\slides\\ug-527498-slides\\slide-002.png",
+                                     "assets\\slides\\ug-527498-slides\\slide-003.png",
+                                     "assets\\slides\\ug-527498-slides\\slide-004.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-527964-slides",
+                      "sourceFile":  "UG-527964 slides.pdf",
+                      "sourceType":  "pdf",
+                      "title":  "UG-527964 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-527964-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-527964-slides\\slide-001.png",
+                                     "assets\\slides\\ug-527964-slides\\slide-002.png",
+                                     "assets\\slides\\ug-527964-slides\\slide-003.png",
+                                     "assets\\slides\\ug-527964-slides\\slide-004.png"
+                                 ]
+                  },
+                  {
+                      "id":  "ug-529610-slides",
+                      "sourceFile":  "UG-529610 slides.pptx",
+                      "sourceType":  "pptx",
+                      "title":  "UG-529610 slides",
+                      "slideCount":  4,
+                      "outputDir":  "assets\\slides\\ug-529610-slides",
+                      "slides":  [
+                                     "assets\\slides\\ug-529610-slides\\slide-001.png",
+                                     "assets\\slides\\ug-529610-slides\\slide-002.png",
+                                     "assets\\slides\\ug-529610-slides\\slide-003.png",
+                                     "assets\\slides\\ug-529610-slides\\slide-004.png"
+                                 ]
+                  }
+              ],
+    "failures":  [
+
+                 ]
+}
