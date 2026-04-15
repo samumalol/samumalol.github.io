@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Home</title>
+    <meta
+      name="description"
+      content="A personal website with home, work, code, and make pages."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body data-page="home">
+    <div class="ambient" aria-hidden="true">
+      <div class="ambient__blob ambient__blob--a"></div>
+      <div class="ambient__blob ambient__blob--b"></div>
+      <div class="ambient__blob ambient__blob--c"></div>
+      <div class="ambient__grain"></div>
+      <div class="ambient__scanlines"></div>
+    </div>
+    <canvas class="home-quanta" data-home-quanta aria-hidden="true"></canvas>
+
+    <div class="site-shell">
+      <header class="site-meta">
+        <p class="site-meta__updated">
+          <span class="site-meta__mark">&gt;&gt;</span>
+          Last updated <span class="site-meta__dots">...</span>
+          <span data-last-updated>April 2026</span>
+        </p>
+
+        <div class="site-meta__links">
+          <a href="mailto:hello@yourname.com">-&gt; Email</a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">-&gt; GitHub</a>
+          <a href="https://www.linkedin.com/in/yourname/" target="_blank" rel="noreferrer">-&gt; LinkedIn</a>
+        </div>
+      </header>
+
+      <main class="page page--home">
+        <section class="hero">
+          <h1 class="hero__lead">
+            <span class="hero__copy"
+              >Your Name builds interfaces that blur clarity and curiosity<br />
+              -- product, code, and physical experiments<br />
+              that live somewhere in between.</span
+            >
+            <span class="hero__cursor" aria-hidden="true"></span>
+            <button
+              class="more-toggle"
+              type="button"
+              data-more-toggle
+              aria-expanded="false"
+              aria-controls="more-panel"
+            >
+              &gt;more&lt;
+            </button>
+          </h1>
+
+          <div class="hero__details" id="more-panel" data-more-panel aria-hidden="true">
+            <p>
+              I'm a designer-builder interested in quiet interfaces, systems that feel human, and
+              prototypes that are useful before they are polished.
+            </p>
+            <p>
+              This template splits my work into four views: a short introduction here, design work
+              in <a href="work.html">Work</a>, technical projects in <a href="code.html">Code</a>,
+              and physical or experimental objects in <a href="make.html">Make</a>.
+            </p>
+            <p>
+              Replace the name, links, and placeholder projects with your own details once the
+              layout feels right.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <nav class="nav-pill" aria-label="Primary">
+        <a class="nav-pill__link" data-nav-page="home" href="index.html">HOME</a>
+        <a class="nav-pill__link" data-nav-page="work" href="work.html">WORK</a>
+        <a class="nav-pill__link" data-nav-page="code" href="code.html">CODE</a>
+        <a class="nav-pill__link" data-nav-page="make" href="make.html">MAKE</a>
+      </nav>
+    </div>
+  </body>
+</html>
